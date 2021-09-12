@@ -19,5 +19,4 @@ Run in cmd: newman run [COLLECTION-LOCATION]\DummyRest.postman_collection.json -
 
 ### Known issues:
 - 429 "Too many requests error" will likely occur when running the tests. The target website tries to protect itself against abuse by limiting how many requests you can make.
-- 
 - No data persistence from the target API
