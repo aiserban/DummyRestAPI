@@ -1,13 +1,17 @@
 # DummyRestAPI
 
 ### Prerequisites:
-Install Postman
+Install Postman (I don't think it's necessary tbh, but if you have trouble with newman later on please tick this step too)
 
 Install nodejs
 
 Run in cmd: npm install -g newman
 
 ### For basic execution
+Either import the collection in Postman and run it from there
+
+OR
+
 Run in cmd: newman run [COLLECTION-LOCATION]\DummyRest.postman_collection.json
 
 * make sure to replace [COLLECTION-LOCATION] to the path where the collection is (e.g. C:\Users\ADMIN\Desktop\DummyRest)
